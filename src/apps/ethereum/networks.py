@@ -233,4 +233,18 @@ NETWORKS = [
         name="Pirl",
         rskip60=False,
     ),
+    NetworkInfo(
+        chain_id=940,
+        slip44=60,
+        shortcut="tPLS",
+        name="Pulsechain testnet",
+        rskip60=False,
+    ),
+    NetworkInfo(
+        chain_id=369,
+        slip44=60,
+        shortcut="PLS",
+        name="Pulsechain",
+        rskip60=False,
+    ),
 ]
